@@ -1,0 +1,15 @@
+npx create-expo-app@latest -e with-router ./
+npm install expo-font axios react-native-dotenv
+//to run on phone we need to install expo-cli globally
+npm install -g expo-cli
+expo-cli start --tunnel
+expo publish
+//published in:
+https://expo.dev/@benabdallah.slimane/ReactNativeProject?serviceType=classic&distribution=expo-go
+//manifest
+https://exp.host/@benabdallah.slimane/ReactNativeProject/index.exp?sdkVersion=48.0.0
+//newer code
+141c9b5e44msh77f991592be5d89p1e79adjsn64216
+
+//old env code
+ba1c9221a3mshd74afd86c6e93e0p182346jsnc753458a638d
